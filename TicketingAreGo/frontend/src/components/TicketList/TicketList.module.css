@@ -1,7 +1,6 @@
 .ticketList {
     width: 100%;
     height: 90%;
-    background-color: rgb(36, 82, 67);
     /* display: inline-block;
     justify-content: center;
     align-items: center; */
@@ -25,7 +24,7 @@
 .title {
     width: 100%;
     height: 100%;
-    background-color: rgb(113, 113, 113);
+    background-color: rgb(156, 155, 155);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,18 +38,43 @@
     align-items: center;
 }
 
-.bottom-ticket {
+.bottom-category {
     width: 100%;
     height: 100%;
+    
 }
 
-.bottom-Status {
+.category {
+    background-color: rgb(68, 4, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom-status {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.status {
+    background-color: rgb(119, 118, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom-created_at {
     width: 100%;
     height: 100%;
 }
 
 .created_at {
-    width: 100%;
-    height: 100%;
-}
+    background-color: rgb(119, 118, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}

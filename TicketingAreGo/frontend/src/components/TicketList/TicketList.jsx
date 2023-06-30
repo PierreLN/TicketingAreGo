@@ -21,11 +21,11 @@ const TicketList = (props) => {
           <div className={styles["top-ticket"]}>
             <div className={styles.title}>{output.title}</div>
           </div>
-          <div className={styles["bottom-category"]}>
-            <div className={styles["bottom-ticket"]}>
+          <div className={styles["bottom-ticket"]}>
+            <div className={styles["bottom-category"]}>
               <div className={styles.category}>Category: {output.category}</div>
             </div>
-            <div className={styles["bottom-Status"]}>
+            <div className={styles["bottom-status"]}>
               <div className={styles.status}>Status: {output.status}</div>
             </div>
             <div className={styles["bottom-created_at"]}>
