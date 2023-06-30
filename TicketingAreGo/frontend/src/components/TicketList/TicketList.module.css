@@ -1,0 +1,56 @@
+.ticketList {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(36, 82, 67);
+    /* display: inline-block;
+    justify-content: center;
+    align-items: center; */
+}
+
+.ticket {
+    width: 80%;
+    height: fit-content;
+    /* display: inline; */
+    margin: 5%;
+}
+
+.top-ticket {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(113, 113, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-ticket {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-ticket {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-Status {
+    width: 100%;
+    height: 100%;
+}
+
+.created_at {
+    width: 100%;
+    height: 100%;
+}
+

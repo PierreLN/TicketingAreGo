@@ -1,13 +1,12 @@
 import React, { Fragment } from "react";
-import Headers from "../Headers/Headers";
 import HomePage from "../HomePage/HomePage";
+import styles from "./MainPage.module.css";
 
 const MainPage = (props) => {
   return (
-    <Fragment>
-      <Headers></Headers>
-      <HomePage></HomePage>
-    </Fragment>
+    <div className={styles.MainPage}>
+        <HomePage></HomePage>
+    </div>
   );
 };
 
